@@ -1,0 +1,25 @@
+{
+  "name": "club-for-seekers.github.io",
+  "version": "1.0.0",
+  "description": "なんでも探求クラブのHP",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/club-for-seekers/club-for-seekers.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/club-for-seekers/club-for-seekers.github.io/issues"
+  },
+  "homepage": "https://github.com/club-for-seekers/club-for-seekers.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
